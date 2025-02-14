@@ -11,7 +11,7 @@ This project is a RESTful API built with Go (Golang) and uses PostgreSQL as its 
 ## Setup Database 
 
 ### 1. Create the memo_board Database
-If you're running PostgreSQL locally, you need to create the memo_board database. You can do this using DBeaver or via the PostgreSQL CLI.
+If you're running PostgreSQL locally, you must create the memo_board database. You can do this using DBeaver or via the PostgreSQL CLI.
 
 Using DBeaver:
 
@@ -23,10 +23,10 @@ Using DBeaver:
 CREATE DATABASE memo_board;
 ```
 
-4. Once the database is created, you can connect to it by selecting the memo_board database from the DBeaver UI.
+4. Once the database is created, you can connect by selecting the memo_board database from the DBeaver UI.
 Import Database using Dump File
 
-You can restore it using DBeaver by use .sql dump from this link and download file:
+You can restore it using DBeaver by using .sql dump from this link https://drive.google.com/file/d/1Y5MA3mBREC0LFFwMedBhRcJRfSAmloky/view?usp=sharing and downloading the file:
 
 1. Right-click on the memo_board database in DBeaver and select Tools -> Restore.
 2. In the Restore dialog, select the .sql dump file that contains the schema and data for the database.
@@ -40,7 +40,7 @@ You can restore it using DBeaver by use .sql dump from this link and download fi
 Clone the repository to your local machine:
 
 ```
-git clone
+git clone https://github.com/KanisphonKonhirungit/memo_board_api
 ```
 
 ### 2. Install Go dependencies
